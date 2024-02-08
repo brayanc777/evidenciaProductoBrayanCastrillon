@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    text-align:justify;
+    font-family:Public Sans;
+}
+.aside{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+}
+.foto {
+    width: 90%;
+}
+aside section h4, .main h4{
+    color: rgb(48, 79, 79);
+    font-weight: 900;
+}
+.educacion div p:nth-child(3), div p:nth-child(1){
+    font-weight: bold;
+}
+.educacion div{
+    padding-top: 3% ;
+}
+.contacto img{
+    width: 9%;
+    padding-right: 4%;
+}
+.contacto div:nth-child(2),div:nth-child(3){
+font-size: smaller;
+}
+.contacto div:nth-child(4),div:nth-child(5){
+    font-size:x-small;
+}
+.contacto div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4%;
+}
+.contacto,.educacion{
+    padding-top: 13%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.main h4{
+    padding-top: 5%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+}
+header h1{
+    font-size:xx-large;
+    font-weight:900;
+}
+header p{
+    font-weight:800;
+}
+.main section div p:nth-child(1){
+    padding: 2% 0vh;
+    font-weight: 700;
+}
+.main section button{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(199, 198, 198);
+    border: 0;
+    margin-top: 0.5vh;
+    font-weight:700;
+    font-size: large;
+}
